@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu app de pedidos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="./img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+      Tu App de Pedidos
+    </a>
+
+    <!-- Botón del menú en dispositivos móviles -->
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links de navegación -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://rotiseriasapp.netlify.app/" target="_blank">Prueba la App</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" >Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Sección #1-->
+
+<div class="container-fluid bg-warning-subtle pt-3 pb-3">
+  <div class="row">
+    <div class="col-4 col-md-6 justify-content-center align-content-center text-center">
+      <img class="img-fluid rounded-3"src="./img/home.png" alt="home">
+    </div>
+    <div class="col-8 col-md-6 justify-content-center align-content-center text-center">
+      <h4 class="text-center fw-bold">Diseño simple, intuitivo y personalizable</h4>
+      <p>Tu logo. Tu paleta de colores.</p>
+      <div class="row">
+        <div class="col-4 pb-1">
+          <img class="img-fluid" src="./img/logo.png" alt="">
+        </div>
+        <div class="col-8 pb-1" style="background-color: chartreuse;">
+          <p>acá img paleta</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Sección #2-->
+
+<div class="container-fluid bg-warning-subtle pt-3 pb-3">
+  <div class="row">
+    <div class="col-4 col-md-6 justify-content-center align-content-center text-center order-1">
+      <img class="img-fluid rounded-3" src="./img/pizzas.png" alt="home">
+    </div>
+    <div class="col-8 col-md-6 justify-content-center align-content-center text-center order-0">
+      <h4 class="text-center fw-bold">Organiza tus productos</h4>
+      <p>Tus productos organizados por categorías donde podrás dar cuenta del costo y de sus ingredientes.</p>
+      <div class="row">
+        <div class="col-4 pb-1">
+          <img class="img-fluid" src="./img/categorias/PIZZAS LATO.png" alt="">
+        </div>
+        <div class="col-4 pb-1">
+          <img class="img-fluid" src="./img/categorias/HAMBURGESAS LATO.png" alt="">
+        </div>
+        <div class="col-4 pb-1">
+          <img class="img-fluid" src="./img/categorias/LOMITOS LATO.png" alt="">
+        </div>
+        <div class="col-4 pb-1">
+          <img class="img-fluid" src="./img/categorias/ENSALADAS.png" alt="">
+        </div>
+        <div class="col-4 pb-1">
+          <img class="img-fluid" src="./img/categorias/PROMOCIONES.png" alt="">
+        </div>
+        <div class="col-4 pb-1">
+          <img class="img-fluid" src="./img/categorias/BEBIDAS.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Sección #3-->
+
+<div class="container-fluid bg-warning-subtle pt-3 pb-3">
+  <div class="row">
+    <div class="col-4 col-md-6 justify-content-center align-content-center text-center">
+      <img class="img-fluid rounded-3"src="./img/carrito_local.png" alt="home">
+    </div>
+    <div class="col-8 col-md-6 justify-content-center align-content-center text-center">
+      <h4 class="text-center fw-bold">Cálculo automático</h4>
+      <p>Puede incluir costos de envío.</p>
+    </div>
+  </div>
+</div>
+
+<!--Sección #4-->
+
+<div class="container-fluid bg-warning-subtle pt-3 pb-3">
+  <div class="row">
+    <div class="col-4 col-md-6 justify-content-center align-content-center text-center order-1">
+      <img class="img-fluid rounded-3" src="./img/buscar.png" alt="home">
+    </div>
+    <div class="col-8 col-md-6 justify-content-center align-content-center text-center order-0">
+      <h4 class="text-center fw-bold">Búsqueda inteligente</h4>
+      <p>Encuentra tus productos por nombre, ingredientes o apto celíaco o vegano.</p>
+    </div>
+  </div>
+</div>
+
+<!--Sección #5-->
+
+<div class="container-fluid bg-warning-subtle pt-3 pb-3">
+  <div class="row">
+    <div class="col-4 col-md-6 justify-content-center align-content-center text-center">
+      <img class="img-fluid rounded-3" src="./img/a_esto.jpeg" alt="home">
+    </div>
+    <div class="col-8 col-md-6 justify-content-center align-content-center text-center">
+      <h4 class="text-center fw-bold">Mensaje personalizable</h4>
+      <p>Recibí el pedido ya armado por medio de Whatsapp. Optimizá tus tiempos de respuesta y organizá tus pedidos.</p>
+    </div>
+  </div>
+</div>
+
+<!--Prueba la app-->
+<div class="container-fluid bg-body-secondary pt-3 pb-3 justify-content-center align-content-end align-items-center text-center">
+  <h3 class="text-center fw-bold">Probá la App en vivo</h3>
+  <p>Hacé click en el botón y explorá la App imaginando tu negocio.</p>
+  <a href="https://rotiseriasapp.netlify.app/" target="_blank"><button type="button" class="btn btn-warning">Probar</button></a>
+</div>
+
+<!--Sobre nosotros-->
+<div class="container-fluid bg-dark-subtle pt-5 pb-5">
+  <h2 class="text-center fw-bold">¿Quienes somos?</h2>
+
+  <!--Perfiles-->
+<div class="container-fluid ">
+  <div class="row p-5">
+    <div class="col-md-6 text-center justify-content-center">
+      <img class="rounded-circle mb-2 mt-3" height="140" width="140" src="./img/Logo.png" alt="foto perfil">
+      <h2 class="fw-normal">Diseño gráfico</h2>
+      <h3 class="fw-semibold" >Valentín Cover</h3>
+      <a href="" target="_blank"><button type="button" class="btn btn-warning btn-sm">Más sobre Valentín</button></a>
+
+    </div>
+    <div class="col-md-6 text-center justify-content-center">
+      <img class="rounded-circle mb-2 mt-3" height="140" width="140" src="./img/Logo.png" alt="foto perfil">
+      <h2 class="fw-normal">Desarrollo WEB</h2>
+      <h3 class="fw-semibold" >Fernán Barberón</h3>
+      <a href="https://ferpanz.github.io/" target="_blank"><button type="button" class="btn btn-warning btn-sm">Más sobre Fernán</button></a>
+    </div>
+  </div>
+</div>
+<div class="container ps-md-5 pe-md-5">
+  <p>Somos dos entusiastas amantes de las tecnologías que combinamos juventud y experiencia, empuje y creatividad, nuevas ideas y practicidad.</p>
+  <p>Buscamos ofrecer soluciones tecnológicas acordes a las necesidades de los clientes sin que esto requiera mayores complicaciones. Nuestro punto de partida es siempre el cliente con sus necesidades y conocimientos tecnológicos.</p>
+</div>
+  
+</div>
+
+<!--Contacto-->
+<div class="container-fluid">
+  <h2>Acá hay que ver métodos de contacto</h2>
+</div>
+        
+</body>
+</html>
